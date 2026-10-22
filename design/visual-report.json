@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-10-22T15:35:15.938Z",
+  "browser": "156.0.8078.4",
+  "dpr": 1,
+  "pixelmatch": {
+    "threshold": 0.1,
+    "includeAA": false
+  },
+  "acceptancePercent": 1,
+  "results": [
+    {
+      "width": 360,
+      "height": 800,
+      "changedPixels": 1293,
+      "differencePercent": 0.44895833333333335,
+      "pass": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "changedPixels": 1293,
+      "differencePercent": 0.3928180823915421,
+      "pass": true
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "changedPixels": 1293,
+      "differencePercent": 0.3226369897195329,
+      "pass": true
+    }
+  ]
+}

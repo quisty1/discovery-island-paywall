@@ -1,0 +1,37 @@
+{
+  "name": "discovery-island-paywall",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev --host 0.0.0.0",
+    "build": "nuxt build",
+    "preview": "wrangler dev",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "db:migrate:local": "wrangler d1 migrations apply DB --local --config wrangler.jsonc",
+    "db:migrate:remote": "wrangler d1 migrations apply DB --remote --config wrangler.jsonc",
+    "deploy": "pnpm build && wrangler deploy",
+    "test:visual": "node scripts/visual-check.mjs",
+    "test:visual:states": "node scripts/visual-states.mjs"
+  },
+  "dependencies": {
+    "nuxt": "4.6.1",
+    "vue": "^3.5.0",
+    "h3": "^1.15.4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "5.20261015.1",
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^24.0.0",
+    "nitro-cloudflare-dev": "0.2.2",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0",
+    "typescript": "^5.9.0",
+    "vitest": "^4.0.0",
+    "vue-tsc": "^3.1.0",
+    "wrangler": "4.151.0"
+  },
+  "packageManager": "pnpm@11.25.0"
+}

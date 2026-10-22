@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "discovery-island-paywall",
+  "main": ".output/server/index.mjs",
+  "compatibility_date": "2026-10-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": { "directory": ".output/public", "binding": "ASSETS" },
+  "observability": { "enabled": true },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "discovery-island-purchases",
+      "database_id": "ba7965e2-57e5-41cb-8fd8-36ffe7a5f512",
+      "migrations_dir": "migrations",
+    },
+  ],
+}

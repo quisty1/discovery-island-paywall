@@ -1,0 +1,42 @@
+[
+  {
+    "state": "monthly",
+    "width": 390,
+    "height": 844,
+    "changedPixels": 2850,
+    "differencePercent": 0.8658403208166241,
+    "pass": true
+  },
+  {
+    "state": "loading",
+    "width": 390,
+    "height": 844,
+    "changedPixels": 1154,
+    "differencePercent": 0.350589379025398,
+    "pass": true
+  },
+  {
+    "state": "purchasing",
+    "width": 390,
+    "height": 844,
+    "changedPixels": 2086,
+    "differencePercent": 0.633734354113501,
+    "pass": true
+  },
+  {
+    "state": "error",
+    "width": 390,
+    "height": 920,
+    "changedPixels": 2517,
+    "differencePercent": 0.7015050167224081,
+    "pass": true
+  },
+  {
+    "state": "success",
+    "width": 390,
+    "height": 844,
+    "changedPixels": 553,
+    "differencePercent": 0.168003402600559,
+    "pass": true
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "fileKey": "DeCkXi6MVX7uve6YZvdDy3",
+  "url": "https://www.figma.com/design/DeCkXi6MVX7uve6YZvdDy3?node-id=2-12",
+  "font": {
+    "family": "Nunito",
+    "weights": [400, 600, 700, 800],
+    "source": "../public/fonts/Nunito-Variable.ttf"
+  },
+  "colors": {
+    "bg": "#FCFAF6",
+    "ink": "#302840",
+    "muted": "#797185",
+    "purple": "#7254B3",
+    "line": "#E5DFEC",
+    "soft": "#F1EBFA",
+    "white": "#FFFFFF",
+    "green": "#487865",
+    "error": "#A44242"
+  },
+  "frames": [
+    { "id": "2:12", "state": "Default", "width": 390, "height": 844 },
+    { "id": "2:101", "state": "Default", "width": 360, "height": 800 },
+    { "id": "2:190", "state": "Default", "width": 430, "height": 932 },
+    { "id": "2:279", "state": "Monthly", "width": 390, "height": 844 },
+    { "id": "2:368", "state": "Loading", "width": 390, "height": 844 },
+    { "id": "2:441", "state": "Purchasing", "width": 390, "height": 844 },
+    { "id": "2:530", "state": "Error", "width": 390, "height": 920 },
+    { "id": "2:622", "state": "Success", "width": 390, "height": 844 }
+  ],
+  "editableTextNodes": 127,
+  "nativeLayers": true,
+  "autoLayout": true
+}
